@@ -1,0 +1,20 @@
+# Gradle y Build (Basura temporal)
+.gradle/
+build/
+bin/
+out/
+
+# Archivos de configuración de usuario local (No subir)
+run/
+run_client/
+run_server/
+
+# IntelliJ IDEA (Configuración de tu editor, no del proyecto)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Archivos de sistema y backups
+.DS_Store
+Thumbs.db

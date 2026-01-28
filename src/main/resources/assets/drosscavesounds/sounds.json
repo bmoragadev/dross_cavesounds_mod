@@ -1,0 +1,24 @@
+{
+  "dross_cavesounds": {
+    "category": "ambient",
+    "subtitle": "subtitles.drosscavesounds.dross_sound",
+    "sounds": [
+      "drosscavesounds:sound_effect_00",
+      "drosscavesounds:sound_effect_01",
+      "drosscavesounds:sound_effect_02",
+      "drosscavesounds:sound_effect_03",
+      "drosscavesounds:sound_effect_04",
+      "drosscavesounds:sound_effect_05",
+      "drosscavesounds:sound_effect_06",
+      "drosscavesounds:sound_effect_07",
+      "drosscavesounds:sound_effect_08",
+      "drosscavesounds:sound_effect_09",
+      "drosscavesounds:sound_effect_10",
+      "drosscavesounds:sound_effect_11",
+      "drosscavesounds:sound_effect_12",
+      "drosscavesounds:sound_effect_13",
+      "drosscavesounds:sound_effect_14",
+      "drosscavesounds:sound_effect_15"
+    ]
+  }
+}

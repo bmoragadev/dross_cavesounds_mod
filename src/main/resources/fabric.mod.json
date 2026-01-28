@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "drosscavesounds",
+  "version": "${version}",
+  "name": "DrossCaveSounds",
+  "description": "Mod el cual añade mas sonidos de drama en las cuevas basados en el popular youtube hispano Dross",
+  "authors": ["Shozaman"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.shozaman.drosscavesounds.client.DrosscavesoundsDataGenerator"
+    ],
+    "client": [
+      "com.shozaman.drosscavesounds.client.DrosscavesoundsClient"
+    ],
+    "main": [
+      "com.shozaman.drosscavesounds.Drosscavesounds"
+    ]
+  },
+  "mixins": [
+    "drosscavesounds.mixins.json",
+    {
+      "config": "drosscavesounds.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
