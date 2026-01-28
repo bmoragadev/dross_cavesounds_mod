@@ -13,6 +13,9 @@ public class ModConfig {
 
     public int averageMinutes = 5;
     public int yCaveLevel = 40;
+    public int soundRadius = 15;
+    public float soundVolume = 1.0f;
+    public int maxBlockLight = 6;
 
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     private static final File CONFIG_FILE = new File(FabricLoader.getInstance().getConfigDir().toFile(), "drosscavesounds.json");
